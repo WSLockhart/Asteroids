@@ -316,7 +316,7 @@ class mainframe:
 
         global pos_variance_slider
         pos_variance_slider = tk.Scale(input_frame, from_=0, to=100, orient=tk.HORIZONTAL)
-        pos_variance_slider.set('30')
+        pos_variance_slider.set('40')
         pos_variance_label = tk.Label(input_frame, text='pos.var:')
         pos_variance_label.pack()
         pos_variance_slider.pack(pady=4)
