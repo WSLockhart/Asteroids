@@ -306,7 +306,7 @@ class mainframe:
         G_entry.pack(side=tk.RIGHT)
         tk.Label(entry_frame_g, text='coupling:').pack(side=tk.LEFT)
         global sticky; sticky = tk.IntVar()
-        tk.Checkbutton(input_frame, text=' elastic', variable=sticky).pack(pady=4)
+        tk.Checkbutton(input_frame, text=' elastic', variable=sticky, state='disabled').pack(pady=4)
         global walled; walled = tk.IntVar(); walled.set('0')
         tk.Checkbutton(input_frame, text=' walls', variable=walled).pack(pady=4)
         global COMframe; COMframe = tk.IntVar(); COMframe.set('0')
