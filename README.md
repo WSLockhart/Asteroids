@@ -1,3 +1,5 @@
 # Asteroids
 
-A physics simulator of N classical bodies in a D-dimensional box with a variable 1/r^2 force of interaction.
+A 2D Newtonian gravity simulator. 
+
+Specify the number of bodies and the strength (and sign) of the inverse-square force between them. Watch masses collide and orbits form!
